@@ -35,4 +35,10 @@ public class RelationalOperatorTest {
 		RelationalOperator tester = new RelationalOperator();
 		assertFalse(tester.isLess(5, 1));
 	}
+	
+	@Test
+	public void isLessTest3() {
+		RelationalOperator tester = new RelationalOperator();
+		assertTrue(tester.isLess(1, 9));
+	}
 }
